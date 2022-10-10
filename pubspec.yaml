@@ -1,19 +1,31 @@
 name: test_app
 description: Test App.
 
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.18.2 <3.0.0'
+  sdk: ">=2.18.2 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  
+
+  # STATE
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+
+  # STORAGE
+  flutter_secure_storage: ^6.0.0
+
   # UI
   cupertino_icons: ^1.0.2
+  cached_network_image: ^3.2.2
+  email_validator: ^2.1.17
+
+  # OTHER
+  logger: ^1.1.0
 
 dev_dependencies:
   flutter_test:
