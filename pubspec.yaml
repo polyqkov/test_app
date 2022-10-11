@@ -17,15 +17,19 @@ dependencies:
   flutter_bloc: ^8.1.1
 
   # STORAGE
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
   flutter_secure_storage: ^6.0.0
 
   # UI
   cupertino_icons: ^1.0.2
   cached_network_image: ^3.2.2
   email_validator: ^2.1.17
+  fluttertoast: ^8.0.9
 
   # OTHER
   logger: ^1.1.0
+  uuid: ^3.0.6
 
 dev_dependencies:
   flutter_test:
